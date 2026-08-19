@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw/private/large datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Large model files
+*.pkl
+
